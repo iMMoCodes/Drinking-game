@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(113, 113, 35, 1) 0%,
+    rgba(242, 240, 20, 1) 100%
+  );
+  font-family: 'Coda Caption', sans-serif;
+}
+h1 {
+  text-align: center;
+  font-size: 4rem;
+  margin-bottom: 10vh;
+}
+
+.container {
+  margin-top: 20vh;
+  display: flex;
+  justify-content: space-around;
+}
+
+.push {
+  width: 20vh;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 1.2rem;
+  font-family: 'Coda Caption', sans-serif;
+  background: radial-gradient(
+    circle,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(113, 113, 35, 1) 0%,
+    rgba(242, 240, 20, 1) 100%
+  );
+  border: 2px solid black;
+}
+.push:active,
+.push:focus {
+  outline: 0;
+}
+.game-over {
+  visibility: hidden;
+}
+
+.replay-btn {
+  margin-left: 35%;
+  height: 20vh;
+  width: 30vw;
+  cursor: pointer;
+  border-radius: 50%;
+  font-size: 2rem;
+  font-family: 'Coda Caption', sans-serif;
+  border: 15px solid black;
+}
+
+.replay-btn:active,
+.replay-btn:focus {
+  outline: 0;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  opacity: 0.8;
+  margin: auto;
+  height: 30vh;
+  width: 80vw;
+}
+
+.info-card {
+  font-size: 2rem;
+}
+
+.info-rule {
+  font-size: 2rem;
+  margin-top: 100px;
+}
